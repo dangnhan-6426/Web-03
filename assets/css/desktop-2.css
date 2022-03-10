@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main{
+    background: #DDDDDD;
+    padding: 0px 24.5pc;
+}
+.banner img{
+    width: 100%;
+    height: 520px;
+}
+.container-laptop-01{
+    height: 70pc;
+    margin: 20px 0px;
+    padding-left:15px ;
+    background: white;
+}
+.title-laptop-01{
+    margin: 0;
+}
+.title-laptop-01 h2{
+    position: absolute;
+    width: 260px;
+    height: 54px;
+    left: 28pc;
+    top: 46pc;
+
+    background: #FFFFFF;
+    border: 6px solid #7F0000;
+    box-sizing: border-box;
+    border-radius: 98px;
+    color: #7F0000;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;     
+    font-size: 18px;
+    line-height: 183%;
+    align-items: center;
+    text-align: center;
+}
+.title-laptop-01 p{
+    position: absolute;
+    width: 215px;
+    height: 27px;
+    left: 29.5pc;
+    top: 48.2pc;
+
+    background: #7F0000;
+    border-radius: 73px;
+    color: white;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 190%;
+    align-items: center;
+    text-align: center;
+}
+.line38-01{
+    position: absolute;
+    width: 265px;
+    height: 0px;
+    left: 28pc;
+    top: 50.8pc;
+    background-color: #000000;
+    border: 3px solid #000000;
+}
+.line37-01{
+    position: absolute;
+    width: 1020px;
+    height: 0px;
+    left: 27.7pc;
+    top: 51.1pc;
+    border: 1px solid #000000;
+}
+.grid-laptop-01{
+    display: grid;
+    grid-template-columns: 310px 310px 310px;
+    grid-column-gap: 70px;
+    grid-row-gap: 200px;
+    padding: 90px 20px;
+}
+.layout-item{
+    position: relative;
+    height: 300px;
+}
+.layout-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.layout-icon .image-icon{
+    position: relative;
+    top:2.5pc;
+    right: 2pc;
+}
+.layout-icon .number-icon{
+    position: absolute;
+    top:3.2pc;
+    left: -0.8pc;
+}
+.content-laptop h3{
+    width: 310px;
+    height: 78px;
+    margin-left: 12px;
+    padding-right: 30px;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 183%;
+    text-align: center;
+    display: flex;
+    color: #000000;
+}
+.content-laptop .h3-laptop{
+    width: 310px;
+    font-size: 15px;
+}
+.content-laptop .cost-1{
+    width: 107.45px;
+    height: 14px;
+    padding: 35px 10px 0px 10px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+    color: #BDBDBD;
+}
+.content-laptop .cost-2{
+    width: 225.64px;
+    height: 20px;
+    margin-top: 15px;
+    padding: 5px 10px 0px 10px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+
+    display: flex;
+    align-items: center;
+    color: #FF0000;
+}
+/* .container-laptop-02 */
+.container-laptop-02{
+    height: 71pc;
+    margin: 5px 0px;
+    background: white;
+}
+.title-laptop-02{
+    margin: 0;
+}
+.title-laptop-02 h2{
+    position: absolute;
+    width: 260px;
+    height: 54px;
+    left: 28pc;
+    top: 117pc;
+
+    background: #FFFFFF;
+    border: 6px solid #7F0000;
+    box-sizing: border-box;
+    border-radius: 98px;
+    color: #7F0000;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 183%;
+    align-items: center;
+    text-align: center;
+}
+.title-laptop-02 p{
+    position: absolute;
+    width: 215px;
+    height: 27px;
+    left: 29.5pc;
+    top: 119.3pc;
+
+    background: #7F0000;
+    border-radius: 73px;
+    color: white;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 190%;
+    align-items: center;
+    text-align: center;
+}
+.line38-02{
+    position: absolute;
+    width: 265px;
+    height: 0px;
+    left: 28pc;
+    top: 122pc;
+    background-color: black;
+    border: 3px solid #000000;
+}
+.line37-02{
+    position: absolute;
+    width: 1020px;
+    height: 0px;
+    left: 27.7pc;
+    top: 122.4pc;
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+.grid-laptop-02{
+    display: grid;
+    grid-template-columns: 310px 310px 310px;
+    grid-column-gap: 70px;
+    grid-row-gap: 200px;
+    padding: 100px 35px;
+}
+.content-laptop-02 h3{
+
+    width: 300px;
+    height: 78px;
+    margin-left: 1pc;
+    padding-right:30px;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 183%;
+    text-align: center;
+    float: left;
+    display: flex;
+    color: #000000;
+}
+.content-laptop-02 .cost-1{
+    width: 107.45px;
+    height: 14px;
+    padding: 35px 10px 0px 10px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+    color: #BDBDBD;
+}
+.content-laptop-02 .cost-2{
+    width: 225.64px;
+    height: 20px;
+    margin-top: 15px;
+    padding: 5px 10px 0px 10px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+
+    display: flex;
+    align-items: center;
+    color: #FF0000;
+}
+/* ================.container-laptop-03================= */
+.container-laptop-03  {
+    height: 40pc;
+    margin: 5px 0px;
+    background: white;
+}
+.title-laptop-03{
+    margin: 0;
+}
+.title-laptop-03 h2{
+    position: absolute;
+    width: 260px;
+    height: 54px;
+    left: 28.5pc;
+    top: 188pc;
+
+    background: #FFFFFF;
+    border: 6px solid #7F0000;
+    box-sizing: border-box;
+    border-radius: 98px;
+    color: #7F0000;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 183%;
+    align-items: center;
+    text-align: center;
+}
+.title-laptop-03 p{
+    position: absolute;
+    width: 215px;
+    height: 27px;
+    left: 30pc;
+    top: 190.4pc;
+
+    background: #7F0000;
+    border-radius: 73px;
+    color: white;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 190%;
+    align-items: center;
+    text-align: center;
+}
+.line38-03{
+    position: absolute;
+    width: 265px;
+    height: 0px;
+    left: 28.5pc;
+    top: 193pc;
+    background-color: #000000;
+    border: 3px solid #000000;
+}
+.line37-03{
+    position: absolute;
+    width: 1020px;
+    height: 0px;
+    left: 28pc;
+    top: 193.3pc;
+    border: 1px solid #000000;
+}
+.grid-laptop-03{
+    display: grid;
+    grid-template-columns: 310px 310px 310px;
+    grid-column-gap: 70px;
+    grid-row-gap: 200px;
+    padding: 110px 35px;
+}
+.content-laptop-03 h3{
+
+    width: 290px;
+    height: 78px;
+    margin-left: 0.5pc;
+    padding-right:0px;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 183%;
+    text-align: center;
+    float: left;
+    display: flex;
+    color: #000000;
+}
+.content-laptop-03 .cost-1{
+    width: 107.45px;
+    height: 14px;
+    padding: 35px 10px 0px 10px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+    color: #BDBDBD;
+}
+.content-laptop-03 .cost-2{
+    width: 225.64px;
+    height: 20px;
+    margin-top: 15px;
+    padding: 5px 10px 0px 10px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+
+    display: flex;
+    align-items: center;
+    color: #FF0000;
+}
+/* ==================container-04===================== */
+.container-04{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 575px 575px;
+    grid-template-rows: 410px;
+}
+.cc-01 img{
+    width: 95%;
+    height: 400px;
+}
+.cc-02 img{
+    width: 95%;
+    height: 400px;
+}

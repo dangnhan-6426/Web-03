@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="vn">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Desktop-1</title>
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="./assets/css/responsive.css">
+    </head>
+<body>
+    
+<!-- ================================================Header========================================= -->
+        <header>
+            <div class="top-menu">
+                <nav class="nav-top-menu">
+                    <ul class="nav-ul-top-menu">
+                        <li>    
+                            <a href="#"> <i class="bi bi-credit-card"></i> Cam kết giá tốt nhất</a>
+                        </li>
+
+                        <li>    
+                            <a href="#"> <i class="bi bi-truck"></i> Miễn phí vận chuyển</a>
+                        </li>
+
+                        <li>    
+                            <a href="#"> <i class="bi bi-shield-check"></i> Bảo hành tận nơi</a>
+                        </li>
+
+                        <li>    
+                            <a href="#"> <i class="bi bi-gift"></i> Tổng hợp khuyến mãi</a>
+                        </li>
+
+                        <li style="float: right;">
+                            <a href="#">HOTLINE: <b style="color: #FFD700;">028 7108 1881</b></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="menu-second">
+                <div class="logo">
+                    <img src="./assets/images/image 110.svg" alt="logo">
+                </div>
+
+                <div class="search">
+                    <form class="example" action="#">
+                        <input type="text" placeholder="Nhập tên hoặc sản phẩm cần tìm ..." name="search">
+                        <button type="submit" ><i class="bi bi-search"></i></button>
+                    </form>
+                </div>
+                
+                <div class="search-app">
+                    <div id="myOverlay" class="overlay">
+                        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+                        <div class="overlay-content">
+                            <form action="#">
+                            <input type="text" placeholder="Search..." name="search">
+                            <button type="submit">Enter</button>
+                            </form>
+                        </div>
+                    </div>
+                    <button class="openBtn" onclick="openSearch()"><i class="bi bi-search"></i></button>
+                </div>
+                <div class="icon-user">
+                    <img src="./assets/images/icon/user.png" alt="icon">
+                    <nav class="nav-second-menu">
+                        <ul class="nav-ul-second-menu">
+                            <li>
+                                <a href="#"><b>Đăng Nhập</b></a> / <a href="#"><b>Đăng kí</b></a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <nav class="nav-second-menu-tk">
+                        <ul class="nav-ul-second-menu-tk">
+                            <li>
+                                <a  href="#"><b>Tài khoản</b></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="icon-cart">
+                    <a href="#"> <i class="bi bi-cart"></i><b> Giỏ hàng </b></a>
+                </div>
+            </div>
+
+            <div id="toggle">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-third"> 
+                <nav class="nav-menu-third">
+                    <ul class="nav-ul-menu-third">
+                        <li>    
+                            <a href="#"> <i class="bi bi-telephone-fill"></i> Tư vấn mua hàng</a>
+                        </li>
+
+                        <li>    
+                            <a href="#"> <i class="bi bi-file-text"></i> Tin công nghệ </a>
+                        </li>
+
+                        <li>    
+                            <a href="#"> <i class="bi bi-pc-display-horizontal"></i> Xây dựng cấu hình </a>
+                        </li>
+
+                        <li>    
+                            <a href="#"> <i class="bi bi-gear-fill"></i> Bảo hành </a>
+                        </li>
+
+                        <li>
+                            <a href="#"> <i class="bi bi-telephone-fill"></i> CSKH </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+<!-- ==========================================Main================================================= -->
+    <main>
+        <div class="Rectangle-63">
+            <div id="sidebar">
+                <nav id="nav-sidebar">
+                    <ul class="nav-ul-sidebar">
+                        <li>
+                            <a href="#VAIO"> <i class="bi bi-laptop"></i> VAIO</a>
+                        </li>
+
+                        <li>
+                            <a href="#Laptop"> <i class="bi bi-laptop"></i> Laptop</a>
+                        </li>
+
+                        <li>
+                            <a href="#PC Gear"> <i class="bi bi-pc-display"></i> PC Gear</a>
+                        </li>
+
+                        <li>
+                            <a href="#Màn hình"> <i class="bi bi-display"></i> Màn hình</a>
+                        </li>
+
+                        <li>
+                            <a href="#Linh kiện PC"> <img  style="margin:0px 6px 0px 5px;" src="./assets/images/icon/image 129.png" alt="icon" class="icon-lk"> Linh kiện PC</a>
+                        </li>
+
+                        <li>
+                            <a href="#Bàn phím"> <img style="margin:0px 7px 0px 5px;" src="./assets/images/icon/image 130.png" alt="icon" class="icon-ban-phim"> Bàn phím</a>
+                        </li>
+
+                        <li>
+                            <a href="#Chuột + Pad chuột"> <img style="margin:0px 8px 0px 5px;" src="./assets/images/icon/image 131.png" alt="icon" class="icon-chuot"> Chuột + Pad chuột</a>
+                        </li>
+
+                        <li>
+                            <a href="#Tai nghe"> <i class="bi bi-headphones"> </i> Tai nghe</a>
+                        </li>
+
+                        <li>
+                            <img src="./assets/images/icon/image 133.png" alt="icon" class="icon-ghe">
+                            <a href="#Ghế gaming" style="position: absolute; line-height: 30px;">  Ghế gaming</a>
+                        </li>
+
+                        <li>
+                            <a href="#Thiết bị mạng"> <i class="bi bi-router-fill"></i> Thiết bị mạng</a>
+                        </li>
+
+                        <li>
+                            <a href="#Card màn hình"> <img style="margin:0px 3px -5px 3px;" src="./assets/images/icon/image 135.png" alt="icon" class="icon-card"> Card màn hình</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="grid-01">
+                <div class=" background-01 item1">
+                    <img src="./assets/images/Nền 1.png" alt="nen-01">
+                    <div class="image-8">
+                        <img src="./assets/images/image 8.svg" alt="view-01">
+                    </div>
+
+                    <div class="image-10">
+                        <img src="./assets/images/image 10.svg" alt="view-01">
+                    </div>
+                    
+                    <div class="image-3">
+                        <img src="./assets/images/image 3.svg" alt="view-01">
+                    </div>
+                    
+                    <div class="image-9">
+                        <img src="./assets/images/image 9.svg" alt="view-01">
+                    </div>
+
+                    <div class="image-4">
+                        <img src="./assets/images/image 4.svg" alt="view-01">
+                    </div>
+
+                    <div class="image-12">
+                        <img src="./assets/images/image 12.svg" alt="view-01">
+                    </div>
+
+                    <div class="image-6">
+                        <img src="./assets/images/image 6.svg" alt="view-01">
+                    </div>
+
+                    <div class="image-7">
+                        <img src="./assets/images/image 7.svg" alt="view-01">
+                    </div>
+
+                    <div class="image-11">
+                        <img src="./assets/images/image 11.svg" alt="view-01">
+                    </div>
+                </div>
+                <div class=" clip-xgear item2">
+                    <img src="./assets/images/Xgear 1.png" alt="clip">
+                </div>
+                <div class=" image-136 item3">
+                    <img src="./assets/images/image 136.png" alt="image-136">
+                </div>
+            </div>
+
+            <div class="Rectangle-15">
+                <h2 class="h2-text-laptop">LAPTOP GAMING</h2>
+                <p class="text-laptop">Cỗ máy chiến đấu di động</p>
+            </div>
+
+            <div class="grid-image-laptop">
+                <img src="./assets/images/image 106.png" alt="image-106">
+                <img src="./assets/images/image 107.png" alt="image-107">
+                <img src="./assets/images/image 105.png" alt="image-105">
+            </div>
+
+            <div class="Rectangle-19">
+                <p class="h2-th-laptop">CÁC THƯƠNG HIỆU LAPTOP</p>
+                <div class="grid-image-th">
+                    <div class="item item1">
+                        <img style="margin: -12px -12px;" src="./assets/images/image 29.svg" alt="image-29">
+                    </div>
+
+                    <div class="item item2">
+                        <img style="margin: -22px -12px;" src="./assets/images/image 32.svg" alt="image-32">
+                    </div>
+
+                    <div class="item item3">
+                        <img style="margin: -30px 15px;" src="./assets/images/image 35.svg" alt="image-35">
+                    </div>
+
+                    <div class="item item4">
+                        <img src="./assets/images/image 36.svg" alt="image-36">
+                    </div>
+
+                    <div class="item item5">
+                        <img style="margin: -28px -13px;" src="./assets/images/image 39.svg" alt="image-39">
+                    </div>
+
+                    <div class="item item6">
+                        <img src="./assets/images/image 40.svg" alt="image-40">
+                    </div>
+
+                    <div class="item item7">
+                        <img style="margin: -12px -20px;" src="./assets/images/image 34.svg" alt="image-34">
+                    </div>
+
+                    <div class="item item8">
+                        <img style="margin: -25px 0px;" src="./assets/images/image 44.svg" alt="image-44">
+                    </div>
+
+                    <div class="item item9">
+                        <img style="margin: -25px 0px;" src="./assets/images/image 45.svg" alt="image-45">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper-02">
+            <div class="text-xgear">
+                <h2> XGEAR-PC </h2>
+                <p>Sức mạnh trong tay bạn</p>
+                <div class="img-49">
+                    <img src="./assets/images/image 49.svg" alt="img-49">
+                </div>
+
+                <div class="img-48">
+                    <img src="./assets/images/image 48.svg" alt="img-48">
+                </div>
+                
+            </div>
+
+            <div class="text-monitor">
+                <h2> MONITOR </h2>
+                <p>Công nghệ, màu sắc, hình ảnh</p>
+                <div class="clip-Monitorv">
+                    <img src="./assets/images/Monitorv4 1.svg" alt="clip-02">
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper-03">
+            <div class="text-wrapper-03">
+                <h2> LINH KIỆN </h2>
+                <p>Nâng cấp nhỏ - Trải nghiệm lớn</p>
+            </div>
+
+            <div class="image-101">
+                <img src="./assets/images/image 101.svg" alt="view-101">
+            </div>
+
+            <div class="image-removebg">
+                <img src="./assets/images/image-removebg-preview (2) 1.svg" alt="image-removebg">
+            </div>
+
+            <div class="image-60">
+                <img src="./assets/images/image 60.svg" alt="view-60">
+            </div>
+            
+            <div class="image-73">
+                <img src="./assets/images/image 73.svg" alt="view-73">
+            </div>
+            
+            <div class="image-79">
+                <img src="./assets/images/image 79.svg" alt="view-79">
+            </div>
+
+            <div class="image-75">
+                <img src="./assets/images/image 75.svg" alt="view-75">
+            </div>
+
+            <div class="image-76">
+                <img src="./assets/images/image 76.svg" alt="view-76">
+            </div>
+
+            <div class="image-77">
+                <img src="./assets/images/image 77.svg" alt="view-77">
+            </div>
+
+            <div class="image-78">
+                <img src="./assets/images/image 78.svg" alt="view-78">
+            </div>
+
+            <div class="image-58">
+                <img src="./assets/images/image 58.svg" alt="view-58">
+            </div>
+
+            <div class="image-71">
+                <img src="./assets/images/image 71.svg" alt="view-71">
+            </div>
+
+            <div class="image-72">
+                <img src="./assets/images/image 72.svg" alt="view-72">
+            </div>
+
+            <div class="image-57">
+                <img src="./assets/images/image 57.svg" alt="view-57">
+            </div>
+
+            <div class="image-62">
+                <img src="./assets/images/image 62.svg" alt="view-62">
+            </div>
+
+            <div class="image-68">
+                <img src="./assets/images/image 68.svg" alt="view-68">
+            </div>
+
+            <div class="image-74">
+                <img src="./assets/images/image 74.svg" alt="view-74">
+            </div>
+        </div>
+
+        <div class="wrapper-04">
+            <div class="text-wrapper-04">
+                <img src="./assets/images/image 102.png" alt="image-wrapper-04">
+                <h2 > CONCEPTD </h2>
+                <p>Từ đơn giản đến phức tạp</p>
+                
+            </div>
+        </div>
+
+        <div class="wrapper-05">
+            <div class="text-01-wrapper-05">
+                <h2> MACBOOK </h2>
+                <p>Gọn nhẹ, mượt mà, mạnh mẽ</p>
+                <div class="img-80">
+                    <img src="./assets/images/image 80.svg" alt="img-80">
+                </div>
+
+                <div class="img-81">
+                    <img src="./assets/images/image 81.svg" alt="img-81">
+                </div>
+                
+            </div>
+
+            <div class="text-02-wrapper-05">
+                <h2> GAMING GEAR </h2>
+                <p>Trang bị cho cổ máy của bạn</p>
+                <div class="img-82">
+                    <img src="./assets/images/image 82.svg" alt="imag-82">
+                </div>
+
+                <div class="img-83">
+                    <img src="./assets/images/image 83.svg" alt="imag-83">
+                </div>
+            </div>
+        </div>
+    </main>
+
+<!-- ==========================Footer=========================== -->
+<footer>
+    <div class="hr"> 
+    </div>
+    <div class="container-footer" >
+        <div class="nav-01">
+            <h3> Hỗ trợ khách hàng </h3>
+                <ul>
+                    <li>
+                        <a href="#">Thẻ ưu đãi</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Trung tâm bảo hành</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Thanh toán và giao hàng</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Dịch vụ sửa chữa và bảo trì</a>
+                    </li>
+                </ul> 
+        </div>
+        
+        <div class="nav-02">    
+            <h3> Chính sách Mua hàng và Bảo hành </h3>
+                <ul>
+                    <li>
+                        <a href="#">Quy định chung</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Chính sách bảo mật thông tin</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Chính sach Vận chuyển và Lắp đặt</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Chính sách bảo hành</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Chính sách đổi trả và hoàn tiền</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Quy định giá cả và hình thức thanh toán</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Chính sách trả góp</a>
+                    </li>
+                </ul>
+        </div>
+
+        <div class="nav-03">
+            <h3> Thông tin XGear </h3>      
+                <ul>
+                    <li>
+                        <a href="#">Giới thiệu XGear</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Thông tin liên hệ</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Hệ thống Showroom</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Hỏi đáp</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Tin công nghệ</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Tuyển dụng</a>
+                    </li>
+                </ul>
+        </div>
+
+        <div class="nav-04">
+            <h3> Cộng đồng XGear </h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/images/icon/facebook.png" alt="icon" class="icon-footer-01"> Xgear (Xgear HCM)
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img src="./assets/images/icon/youtube.png" alt="icon" class="icon-footer-02"> Xgear
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img src="./assets/images/icon/instagram.png" alt="icon" > xgearvietnam
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img src="./assets/images/icon/vector (3).svg" alt="icon" >
+                            HOTLINE: <b style="color: red;">028 7108 1881</b> <br>
+                            <b  class="b1" style="color: red; margin-left: 67.5px;"> 090 703 1881</b> 
+                        </a>
+                    </li>
+                     <img src="./assets/images/image 105.svg" alt="icon-footer">
+                </ul>
+        </div>
+
+        <div class="nav-05">
+            <h3> Email liên hệ </h3>
+
+                <ul>
+                    <li> 
+                        <a href="#">Mua hàng:</a><br>
+                        <p href="#" style="color: red;">sales@thenewxgear.com</p>
+                    </li>
+
+                    <li>
+                        <a href="#">Hỗ trợ khách hàng:</a><br>
+                        <p href="#" style="color: red;">support@thenewxgear.com</p>
+                    </li>
+
+                    <img src="./assets/images/image 138.svg" alt="icon-footer">
+                </ul>
+
+        </div>
+          
+    </div>
+</footer>
+<!-- ============================JS============================== -->
+<script src="./assets/js/app.js"></script>
+</body>
+</html>
