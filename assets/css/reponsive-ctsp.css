@@ -94,33 +94,70 @@
         height: 340pc;
         background: white;
     }
-    .gt{
-        margin: 0px 4pc; 
+    .gt-img{
+        margin:0px 0px 0px 30px;
+        padding-top: 40px;
     }
-    .gt .image-01{
+    .container {
         position: relative;
-        width: 80%;
-        height: 310px;
-        top:2.5pc;
-        right: 13.5pc;
     }
-    .gt .image-02{
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    .caption-container {
+        text-align: center;
+        background-color: #222;
+        padding: 2px 100px;
+        color: white;
+    }
+    .row{
+        margin-left: 40px;
+    }
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    .column {
+      display: inline-flex;
+      padding: 12px 2px;
+      width: auto;
+      height: 60px;
+    }
+    
+    .demo {
+      opacity: 0.6;
+    }
+    
+    .active,
+    .demo:hover {
+      opacity: 1;
+    }
+    
+    .mySlides {
+        display: none;
+    }
+    
+    .cursor {
+        cursor: pointer;
+    }
+    /* ============================= */
+    .gt-content{
         position: relative;
-        top: 3pc;
-        right:17pc;
-        width: 100%;
-        height: 60px;
+        margin: -1.7pc 12pc;
     }
-    .gt .gt-content{
-        position: relative;
-        margin: 0pc 4pc;
-    }
-    .gt .gt-content h2{
+    .gt-content h2{
         position: relative;
         width: 520px;
         height: 54px;
-        left: 15.5pc;
-        top: -20.9pc;
+        left: 11.5pc;
+        top: -22.5pc;
         
         font-style: normal;
         font-weight: bold;
@@ -134,7 +171,7 @@
     .now-buy{
         position: absolute;
         top:-14.5pc;
-        left: 16.2pc;
+        left: 11.5pc;
     }
     .now-buy .title-01{
         position: absolute;
@@ -208,7 +245,7 @@
     .prepay{
         position: absolute;
         top:-14.5pc;
-        left: 39pc;
+        left: 34pc;
     }
     .prepay .title-01{
         position: absolute;
@@ -247,8 +284,8 @@
         position: absolute;
         width: 435px;
         height: 2px;
-        left: 15.7pc;
-        top: -6.8pc;
+        left: 11.7pc;
+        top: -7.5pc;
         border: 1px solid #D0CCCC;
         background:#D0CCCC;
     }
@@ -290,7 +327,7 @@
     
     .text-discount-01{
         margin-top: -5pc;
-        margin-left: 22pc;
+        margin-left: 26pc;
     }
     .discount .h3{
         width: 200px;
@@ -365,7 +402,7 @@
         width: 435px;
         height: 2px;
         left: 23.7pc;
-        top: 38.8pc;
+        top: 40.8pc;
         border: 1px solid #D0CCCC;
         background-color:#D0CCCC;
     }
@@ -404,7 +441,7 @@
     }
     .text-discount-02{
         margin-top: 2pc;
-        margin-left: 22pc;
+        margin-left: 26pc;
     }
     
     .information-01{
@@ -488,7 +525,7 @@
         width: 90px;
         height: 50px;
         left: 26pc;
-        top: 50.2pc;
+        top: 53.2pc;
     
         background: #FFFFFF;
         border: 1px solid #D0D0D0;
@@ -510,7 +547,7 @@
         width: 190px;
         height: 48px;
         left: 31.6pc;
-        top: 50.2pc;
+        top: 53.2pc;
     
         background: #FF0000;
         border: 1px solid #900000;
@@ -531,13 +568,13 @@
         width: 47pc;
         height: 2px;
         left: 6pc;
-        top: 56pc;
+        top: 59pc;
         border: 1px solid #D0CCCC;
     }
     
     .styled-table-01 {
         position: absolute;
-        top: 59.9pc;
+        top: 63pc;
         left: 41pc;
         color: black;
         border-collapse: collapse;
@@ -566,7 +603,7 @@
         width: 290px;
         height: 40px;
         left: 41pc;
-        top: 22pc;
+        top: 23pc;
     
         font-family: Roboto, sans-serif;
         font-style: normal;
@@ -671,7 +708,7 @@
     .styled-table-03 th{
         font-size: 20px;
         padding: 10px 15px;
-        width: 450px;
+        width: 430px;
         color: red;
         background: #E1E1E1;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -690,7 +727,7 @@
     
     /* ======================Thông tin========================== */
     .content-evaluate{
-        margin: 8pc 2.8pc;
+        margin: 7pc 2.8pc;
     }
     .content-evaluate .text-evaluate-01 h1{
         font-size: 18px;
@@ -847,7 +884,7 @@
     /* ===============code=============== */
     .code-laptop p{
         position: relative;
-        top: -5.5pc;
+        top: -4.7pc;
         left: 2.5pc;
         font-family: Roboto, sans-serif;
         font-weight: bold;
@@ -1109,33 +1146,70 @@
         height: 340pc;
         background: white;
     }
-    .gt{
-        margin: 0px 4pc; 
+    .gt-img{
+        margin:0px 0px 0px 30px;
+        padding-top: 40px;
     }
-    .gt .image-01{
+    .container {
         position: relative;
-        width: 80%;
-        height: 270px;
-        top:2.5pc;
-        right: 15.5pc;
     }
-    .gt .image-02{
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    .caption-container {
+        text-align: center;
+        background-color: #222;
+        padding: 2px 100px;
+        color: white;
+    }
+    .row{
+        margin-left: 40px;
+    }
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    .column {
+      display: inline-flex;
+      padding: 12px 2px;
+      width: auto;
+      height: 60px;
+    }
+    
+    .demo {
+      opacity: 0.6;
+    }
+    
+    .active,
+    .demo:hover {
+      opacity: 1;
+    }
+    
+    .mySlides {
+        display: none;
+    }
+    
+    .cursor {
+        cursor: pointer;
+    }
+    /* ============================= */
+    .gt-content{
         position: relative;
-        top: 3pc;
-        right:19pc;
-        width: 100%;
-        height: 50px;
+        margin: -1.7pc 12pc;
     }
-    .gt .gt-content{
-        position: relative;
-        margin: 0pc 4pc;
-    }
-    .gt .gt-content h2{
+    .gt-content h2{
         position: relative;
         width: 520px;
         height: 54px;
-        left: 14pc;
-        top: -17.9pc;
+        left: 12.5pc;
+        top: -22.5pc;
         
         font-style: normal;
         font-weight: bold;
@@ -1148,8 +1222,8 @@
     }
     .now-buy{
         position: absolute;
-        top:-10pc;
-        left: 14.2pc;
+        top:-14.5pc;
+        left: 12.2pc;
     }
     .now-buy .title-01{
         position: absolute;
@@ -1222,8 +1296,8 @@
     }
     .prepay{
         position: absolute;
-        top:-10pc;
-        left: 39pc;
+        top:-14.5pc;
+        left: 37pc;
     }
     .prepay .title-01{
         position: absolute;
@@ -1262,8 +1336,8 @@
         position: absolute;
         width: 445px;
         height: 2px;
-        left: 14pc;
-        top: -4.4pc;
+        left: 12.6pc;
+        top: -7pc;
         border: 1px solid #D0CCCC;
         background:#D0CCCC;
     }
@@ -1272,8 +1346,8 @@
         position: absolute;
         width: 150px;
         height: 27px;
-        left: 22.2pc;
-        top: 17pc;
+        left: 24.7pc;
+        top: 18.5pc;
     
         font-family: Roboto, sans-serif;
         font-style: normal;
@@ -1289,8 +1363,8 @@
         position: absolute;
         width: 270px;
         height: 27px;
-        left: 26pc;
-        top: 19pc;
+        left: 27pc;
+        top: 22pc;
     
         font-family: Roboto,sans-serif;
         font-style: normal;
@@ -1305,7 +1379,7 @@
     
     .text-discount-01{
         margin-top: -2.5pc;
-        margin-left: 22pc;
+        margin-left: 27pc;
     }
     .discount .h3{
         width: 200px;
@@ -1380,7 +1454,7 @@
         width: 445px;
         height: 2px;
         left: 22.5pc;
-        top: 38.8pc;
+        top: 43.8pc;
         border: 1px solid #D0CCCC;
         background-color:#D0CCCC;
     }
@@ -1419,7 +1493,7 @@
     }
     .text-discount-02{
         margin-top: 2pc;
-        margin-left: 22pc;
+        margin-left: 27pc;
     }
     
     .information-01{
@@ -1502,10 +1576,10 @@
     }
     .button-cart p{
         position: absolute;
-        width: 80px;
-        height: 45px;
+        width: 90px;
+        height: 50px;
         left: 26pc;
-        top: 50.2pc;
+        top: 55.2pc;
     
         background: #FFFFFF;
         border: 1px solid #D0D0D0;
@@ -1525,8 +1599,8 @@
         position: absolute;
         width: 190px;
         height: 48px;
-        left: 31pc;
-        top: 50.2pc;
+        left: 31.7pc;
+        top: 55.2pc;
     
         background: #FF0000;
         border: 1px solid #900000;
@@ -1547,13 +1621,14 @@
         width: 47pc;
         height: 2px;
         left: 6pc;
-        top: 56pc;
+        top: 61pc;
         border: 1px solid #D0CCCC;
+        background-color: #D0CCCC;
     }
     
     .styled-table-01 {
         position: absolute;
-        top: 59.9pc;
+        top: 65.5pc;
         left: 41pc;
         color: black;
         border-collapse: collapse;
@@ -1624,9 +1699,9 @@
     }
     .modal-content img{
         width: 50%;
-        height: 280px;
+        height: 270px;
         margin-top: 2px;
-        margin-left: 10pc;
+        margin-left: 8.5pc;
     }
     .modal-content h1{
         font-family: Racing Sans outline;
@@ -1706,7 +1781,7 @@
     
     /* ======================Thông tin========================== */
     .content-evaluate{
-        margin: 8pc 2.8pc;
+        margin: 6pc 2.8pc;
     }
     .content-evaluate .text-evaluate-01 h1{
         font-size: 18px;
@@ -1875,6 +1950,7 @@
         left: 2.5pc;
         top: 309.5pc;
         border: 1px solid #D0CCCC;
+        background-color: #D0CCCC;
     }
     .image-code-laptop img{
         width: 30%;
@@ -2150,37 +2226,74 @@
         height: 315pc;
         background: white;
     }
-    .gt{
-        margin: 0px 4pc; 
+    .gt-img{
+        margin:0px 0px 0px 30px;
+        padding-top: 40px;
     }
-    .gt .image-01{
+    .container {
         position: relative;
-        width: 80%;
-        height: 270px;
-        top:2.5pc;
-        right:12pc;
     }
-    .gt .image-02{
-        position: relative;
-        top: 3pc;
-        right:14.5pc;
-        width: 100%;
-        height: 50px;
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
     }
-    .gt .gt-content{
-        position: relative;
-        margin: 3pc 2pc;
+    .caption-container {
+        text-align: center;
+        background-color: #222;
+        padding: 2px 100px;
+        color: white;
     }
-    .gt .gt-content h2{
+    .row{
+        margin-left: 40px;
+    }
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    .column {
+      display: inline-flex;
+      padding: 12px 2px;
+      width: auto;
+      height: 55px;
+    }
+    
+    .demo {
+      opacity: 0.6;
+    }
+    
+    .active,
+    .demo:hover {
+      opacity: 1;
+    }
+    
+    .mySlides {
+        display: none;
+    }
+    
+    .cursor {
+        cursor: pointer;
+    }
+    /* ============================= */
+    .gt-content{
         position: relative;
-        width: 460px;
+        margin: -1.7pc 12pc;
+    }
+    .gt-content h2{
+        position: relative;
+        width: 520px;
         height: 54px;
-        left: 15.5pc;
-        top: -20.9pc;
+        left: 8.5pc;
+        top: -19pc;
         
         font-style: normal;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 18px;
         line-height: 183%;
     
         display: flex;
@@ -2189,8 +2302,8 @@
     }
     .now-buy{
         position: absolute;
-        top:-14.5pc;
-        left: 15.5pc;
+        top:-12pc;
+        left: 8.7pc;
     }
     .now-buy .title-01{
         position: absolute;
@@ -2263,8 +2376,8 @@
     }
     .prepay{
         position: absolute;
-        top:-14.5pc;
-        left: 38pc;
+        top:-12pc;
+        left: 32pc;
     }
     .prepay .title-01{
         position: absolute;
@@ -2301,10 +2414,10 @@
     }
     .hr-01{
         position: absolute;
-        width: 370px;
+        width: 450px;
         height: 2px;
-        left: 15.7pc;
-        top: -7.8pc;
+        left:8.7pc;
+        top: -6.2pc;
         border: 1px solid #D0CCCC;
         background:#D0CCCC;
     }
@@ -2313,7 +2426,7 @@
         position: absolute;
         width: 150px;
         height: 27px;
-        left: 21.7pc;
+        left: 20.7pc;
         top: 16pc;
     
         font-family: Roboto, sans-serif;
@@ -2330,7 +2443,7 @@
         position: absolute;
         width: 270px;
         height: 27px;
-        left: 23.8pc;
+        left: 22.8pc;
         top: 18pc;
     
         font-family: Roboto,sans-serif;
@@ -2345,8 +2458,8 @@
     }
     
     .text-discount-01{
-        margin-top: -9pc;
-        margin-left: 20pc;
+        margin-top: -4pc;
+        margin-left: 23pc;
     }
     .discount .h3{
         width: 200px;
@@ -2418,9 +2531,9 @@
     }
     .hr-02{
         position: absolute;
-        width: 375px;
+        width: 450px;
         height: 2px;
-        left: 21.7pc;
+        left: 21.3pc;
         top: 38.8pc;
         border: 1px solid #D0CCCC;
         background-color:#D0CCCC;
@@ -2460,7 +2573,7 @@
     }
     .text-discount-02{
         margin-top: 2pc;
-        margin-left: 20pc;
+        margin-left: 23.5pc;
     }
     
     .information-01{
@@ -2746,7 +2859,7 @@
     
     /* ======================Thông tin========================== */
     .content-evaluate{
-        margin: 8pc 2.8pc;
+        margin: 6pc 2.8pc;
     }
     .content-evaluate .text-evaluate-01 h1{
         font-size: 17px;
@@ -2903,7 +3016,7 @@
     /* ===============code=============== */
     .code-laptop p{
         position: relative;
-        top: -5.5pc;
+        top: -4.5pc;
         left: 2.5pc;
         font-family: Roboto, sans-serif;
         font-weight: bold;
@@ -2913,8 +3026,9 @@
         width: 40.5pc;
         height: 2px;
         left: 2.5pc;
-        top: 285.5pc;
+        top: 281.9pc;
         border: 1px solid #D0CCCC;
+        background-color: #D0CCCC;
     }
     .image-code-laptop img{
         width: 30%;
@@ -3395,33 +3509,71 @@
     .container-main{
         position: relative;
         top: 0px;
-        height: 355pc;
+        height: 350pc;
         background: white;
     }
-    .gt{
-        margin: 0px 4pc; 
+    .gt-img{
+        margin:0px 0px 0px 0pc;
+        padding-top: 30px;
     }
-    .gt .image-01{
+    .gt-img .mySlides img{
+        margin-left: 8.6pc;
+    }
+    .container {
         position: relative;
-        width: 80%;
-        height: 270px;
-        top:0pc;
-        right:0pc;
-        left: 2pc;
     }
-    .gt .image-02{
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    .caption-container {
+        text-align: center;
+        background-color: #222;
+        padding: 2px 100px;
+        color: white;
+    }
+    .row{
+        margin-left: 7pc;
+    }
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    .column {
+      display: inline-flex;
+      padding: 12px 2px;
+      width: auto;
+      height: 50px;
+    }
+    
+    .demo {
+      opacity: 0.6;
+    }
+    
+    .active,
+    .demo:hover {
+      opacity: 1;
+    }
+    
+    .mySlides {
+        display: none;
+    }
+    
+    .cursor {
+        cursor: pointer;
+    }
+    /* ================================= */
+    .gt-content{
         position: relative;
-        top: -1.6pc;
-        right:0pc;
-        left: 1.2pc;
-        width: 100%;
-        height: 37px;
+        margin: 23pc 4.5pc;
     }
-    .gt .gt-content{
-        position: relative;
-        margin: 22pc 0pc;
-    }
-    .gt .gt-content h2{
+    .gt-content h2{
         position: relative;
         width: 380px;
         height: 54px;
@@ -3514,7 +3666,7 @@
     .prepay{
         position: absolute;
         top:-14.5pc;
-        left: 16pc;
+        left: 15.2pc;
     }
     .prepay .title-01{
         position: absolute;
@@ -3537,7 +3689,7 @@
         position: absolute;
         width: 134px;
         height: 44px;
-        right: -5.4pc;
+        right: -5pc;
         top: -0.6pc;
     
         font-family: Roboto, sans-serif;
@@ -3553,7 +3705,7 @@
         position: absolute;
         width: 378px;
         height: 1px;
-        left: -3pc;
+        left: -3.5pc;
         top: -9.8pc;
         border: 1px solid #D0CCCC;
         background:#D0CCCC;
@@ -3564,7 +3716,7 @@
         width: 150px;
         height: 27px;
         left: 1pc;
-        top: 32.2pc;
+        top: 27.3pc;
     
         font-family: Roboto, sans-serif;
         font-style: normal;
@@ -3581,7 +3733,7 @@
         width: 270px;
         height: 27px;
         left: 1pc;
-        top: 34.5pc;
+        top: 29.5pc;
     
         font-family: Roboto,sans-serif;
         font-style: normal;
@@ -3596,7 +3748,7 @@
     
     .text-discount-01{
         margin-top: -30pc;
-        margin-left: -3pc;
+        margin-left: 1.2pc;
     }
     .discount .h3{
         width: 200px;
@@ -3671,7 +3823,7 @@
         width: 378px;
         height: 2px;
         left: 1pc;
-        top: 54.8pc;
+        top: 50.8pc;
         border: 1px solid #D0CCCC;
         background-color:#D0CCCC;
     }
@@ -3710,15 +3862,15 @@
     }
     .text-discount-02{
         margin-top: 2pc;
-        margin-left: -3pc;
+        margin-left: 1.2pc;
     }
     
     .information-01{
         position: absolute;
         width: 13.2pc;
         height: 6pc;
-        left: 3pc;
-        top: 66pc;
+        left: 1.2pc;
+        top: 62pc;
         border: 1px dashed #000000;
         padding: 10px 15px;
     }
@@ -3758,8 +3910,8 @@
         position: absolute;
         width: 13.2pc;
         height: 50px;
-        left: 3pc;
-        top: 72.5pc;
+        left: 1.2pc;
+        top: 68.5pc;
     
         border: 1px solid #000000;
         box-sizing: border-box;
@@ -3791,10 +3943,10 @@
     }
     .button-cart p{
         position: absolute;
-        width: 80px;
-        height: 45px;
-        left: 2pc;
-        top: 78pc;
+        width: 70px;
+        height: 40px;
+        left: 1.2pc;
+        top: 74pc;
     
         background: #FFFFFF;
         border: 1px solid #D0D0D0;
@@ -3804,7 +3956,7 @@
         font-style: normal;
         font-weight: bold;
         font-size: 22px;
-        padding-left: 33px;
+        padding-left: 27px;
     
         display: flex;
         align-items: center;
@@ -3813,10 +3965,10 @@
     }
     .button-cart button{
         position: absolute;
-        width: 170px;
-        height: 45px;
-        left: 7pc;
-        top: 78pc;
+        width: 160px;
+        height: 40px;
+        left: 5.6pc;
+        top: 74pc;
     
         background: #FF0000;
         border: 1px solid #900000;
@@ -3837,13 +3989,13 @@
         width: 23.6pc;
         height: 2px;
         left: 1pc;
-        top: 84pc;
+        top: 78pc;
         border: 1px solid #D0CCCC;
     }
     
     .styled-table-01 {
         position: absolute;
-        top: 84.7pc;
+        top: 80pc;
         left: 1pc;
         color: black;
         border-collapse: collapse;
@@ -3873,7 +4025,7 @@
         width: 250px;
         height: 40px;
         left: 1pc;
-        top: 30pc;
+        top: 33pc;
     
         font-family: Roboto, sans-serif;
         font-style: normal;
@@ -3915,7 +4067,7 @@
     }
     .modal-content img{
         width: 70%;
-        height: 180px;
+        height: 210px;
         margin-top: 2px;
         margin-left: 3pc;
     }
@@ -4163,7 +4315,7 @@
         width: 19pc;
         height: 2px;
         left: 1.2pc;
-        top: 307.8pc;
+        top: 303.5pc;
         border: 1px solid #D0CCCC;
     }
     .image-code-laptop img{
@@ -4641,34 +4793,72 @@
         height: 350pc;
         background: white;
     }
-    .gt{
-        margin: 0px 4pc; 
+    .gt-img{
+        margin:0px 0px 0px 0pc;
+        padding-top: 30px;
     }
-    .gt .image-01{
+    .gt-img .mySlides img{
+        margin-left: 8.4pc;
+    }
+    .container {
         position: relative;
-        width: 80%;
-        height: 270px;
-        top:0pc;
-        right:0pc;
-        left: 2pc;
     }
-    .gt .image-02{
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    .caption-container {
+        text-align: center;
+        background-color: #222;
+        padding: 2px 100px;
+        color: white;
+    }
+    .row{
+        margin-left: 7pc;
+    }
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    .column {
+      display: inline-flex;
+      padding: 12px 0px;
+      width: auto;
+      height: 50px;
+    }
+    
+    .demo {
+      opacity: 0.6;
+    }
+    
+    .active,
+    .demo:hover {
+      opacity: 1;
+    }
+    
+    .mySlides {
+        display: none;
+    }
+    
+    .cursor {
+        cursor: pointer;
+    }
+    /* ================================= */
+    .gt-content{
         position: relative;
-        top: -1.6pc;
-        right:0pc;
-        left: 1.2pc;
-        width: 100%;
-        height: 37px;
+        margin: 22pc 1.5pc;
     }
-    .gt .gt-content{
-        position: relative;
-        margin: 22pc 0pc;
-    }
-    .gt .gt-content h2{
+    .gt-content h2{
         position: relative;
         width: 350px;
         height: 54px;
-        left: -2.9pc;
+        left: 0pc;
         top: -20.9pc;
         
         font-style: normal;
@@ -4683,7 +4873,7 @@
     .now-buy{
         position: absolute;
         top:-14.5pc;
-        left: -3pc;
+        left: 0.5pc;
     }
     .now-buy .title-01{
         position: absolute;
@@ -4757,7 +4947,7 @@
     .prepay{
         position: absolute;
         top:-14.5pc;
-        left: 14pc;
+        left: 18pc;
     }
     .prepay .title-01{
         position: absolute;
@@ -4796,7 +4986,7 @@
         position: absolute;
         width: 342px;
         height: 2px;
-        left: -3pc;
+        left: 0pc;
         top: -9.8pc;
         border: 1px solid #D0CCCC;
         background:#D0CCCC;
@@ -4806,8 +4996,8 @@
         position: absolute;
         width: 150px;
         height: 27px;
-        left: 1pc;
-        top: 32.2pc;
+        left: 1.5pc;
+        top: 26pc;
     
         font-family: Roboto, sans-serif;
         font-style: normal;
@@ -4823,8 +5013,8 @@
         position: absolute;
         width: 270px;
         height: 27px;
-        left: 1pc;
-        top: 34.5pc;
+        left: 1.6pc;
+        top: 28.5pc;
     
         font-family: Roboto,sans-serif;
         font-style: normal;
@@ -4839,7 +5029,7 @@
     
     .text-discount-01{
         margin-top: -30pc;
-        margin-left: -3pc;
+        margin-left: 1.6pc;
     }
     .discount .h3{
         width: 200px;
@@ -4913,8 +5103,8 @@
         position: absolute;
         width: 342px;
         height: 2px;
-        left: 1pc;
-        top: 54.8pc;
+        left: 1.6pc;
+        top: 48.8pc;
         border: 1px solid #D0CCCC;
         background-color:#D0CCCC;
     }
@@ -4953,15 +5143,15 @@
     }
     .text-discount-02{
         margin-top: 2pc;
-        margin-left: -3pc;
+        margin-left: 1.6pc;
     }
     
     .information-01{
         position: absolute;
         width: 13.2pc;
         height: 6pc;
-        left: 3pc;
-        top: 66pc;
+        left: 2.5pc;
+        top: 60pc;
         border: 1px dashed #000000;
         padding: 10px 15px;
     }
@@ -5001,8 +5191,8 @@
         position: absolute;
         width: 13.2pc;
         height: 50px;
-        left: 3pc;
-        top: 72.5pc;
+        left: 2.5pc;
+        top: 66.5pc;
     
         border: 1px solid #000000;
         box-sizing: border-box;
@@ -5036,8 +5226,8 @@
         position: absolute;
         width: 65px;
         height: 40px;
-        left: 1pc;
-        top: 78pc;
+        left: 2.5pc;
+        top: 73pc;
     
         background: #FFFFFF;
         border: 1px solid #D0D0D0;
@@ -5058,8 +5248,8 @@
         position: absolute;
         width: 150px;
         height: 40px;
-        left: 5pc;
-        top: 78pc;
+        left: 6.5pc;
+        top: 73pc;
     
         background: #FF0000;
         border: 1px solid #900000;
@@ -5080,14 +5270,14 @@
         width: 21.5pc;
         height: 2px;
         left: 1pc;
-        top: 84pc;
+        top: 78pc;
         border: 1px solid #D0CCCC;
         background-color:#D0CCCC;
     }
     
     .styled-table-01 {
         position: absolute;
-        top: 84.7pc;
+        top: 78.7pc;
         left: 1pc;
         color: black;
         border-collapse: collapse;
@@ -5117,7 +5307,7 @@
         width: 250px;
         height: 40px;
         left: 1pc;
-        top: 30pc;
+        top: 30.2pc;
     
         font-family: Roboto, sans-serif;
         font-style: normal;
@@ -5396,7 +5586,7 @@
     /* ===============code=============== */
     .code-laptop p{
         position: relative;
-        top: -30.5pc;
+        top: -31pc;
         left: 1pc;
         width:270px ;
         font-family: Roboto, sans-serif;
@@ -5407,7 +5597,7 @@
         width: 17.2pc;
         height: 2px;
         left: 1pc;
-        top: 305pc;
+        top: 298.2pc;
         border: 1px solid #D0CCCC;
     }
     .image-code-laptop img{
@@ -5470,10 +5660,10 @@
     }
     .hr-05{
         position: relative;
-        width: 20.5pc;
+        width: 21pc;
         height: 2px;
         left: 1.5pc;
-        top: -35pc;
+        top: -33pc;
         border: 1px solid #D0CCCC;
     }
     /* ===========================comparison========================== */
@@ -5482,7 +5672,7 @@
         width: 330px;
         height: 50px;
         left: 1.6pc;
-        top: -35pc;
+        top: -32pc;
     
         font-family: Roboto, sans-serif;
         font-style: normal;
@@ -5496,7 +5686,7 @@
     }
     .comparison .layout-comparison{
         position: relative;
-        top:-35pc;
+        top:-30pc;
         left: 2pc;
         display: grid;
         width:50px ;
@@ -5755,7 +5945,7 @@
     .icon-user{
         position: absolute;
         top:0.3pc;
-        left: 18pc;
+        left: 18.5pc;
     }
     .icon-user img{
         position: absolute;
@@ -5881,34 +6071,72 @@
         height: 350pc;
         background: white;
     }
-    .gt{
-        margin: 0px 4pc; 
+    .gt-img{
+        margin:0px 0px 0px 0pc;
+        padding-top: 30px;
     }
-    .gt .image-01{
+    .gt-img .mySlides img{
+        margin-left: 8.4pc;
+    }
+    .container {
         position: relative;
-        width: 80%;
-        height: 270px;
-        top:0pc;
-        right:0pc;
-        left: 2pc;
     }
-    .gt .image-02{
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    .caption-container {
+        text-align: center;
+        background-color: #222;
+        padding: 2px 100px;
+        color: white;
+    }
+    .row{
+        margin-left: 7pc;
+    }
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    .column {
+      display: inline-flex;
+      padding: 12px 0px;
+      width: auto;
+      height: 50px;
+    }
+    
+    .demo {
+      opacity: 0.6;
+    }
+    
+    .active,
+    .demo:hover {
+      opacity: 1;
+    }
+    
+    .mySlides {
+        display: none;
+    }
+    
+    .cursor {
+        cursor: pointer;
+    }
+    /* ================================= */
+    .gt-content{
         position: relative;
-        top: -1.6pc;
-        right:0pc;
-        left: 1.2pc;
-        width: 100%;
-        height: 37px;
+        margin: 22pc 1.5pc;
     }
-    .gt .gt-content{
-        position: relative;
-        margin: 22pc 0pc;
-    }
-    .gt .gt-content h2{
+    .gt-content h2{
         position: relative;
         width: 350px;
         height: 54px;
-        left: -2.9pc;
+        left: 0pc;
         top: -20.9pc;
         
         font-style: normal;
@@ -5923,7 +6151,7 @@
     .now-buy{
         position: absolute;
         top:-14.5pc;
-        left: -3pc;
+        left: 0.5pc;
     }
     .now-buy .title-01{
         position: absolute;
@@ -5997,7 +6225,7 @@
     .prepay{
         position: absolute;
         top:-14.5pc;
-        left: 14pc;
+        left: 18pc;
     }
     .prepay .title-01{
         position: absolute;
@@ -6036,7 +6264,7 @@
         position: absolute;
         width: 342px;
         height: 2px;
-        left: -3pc;
+        left: 0pc;
         top: -9.8pc;
         border: 1px solid #D0CCCC;
         background:#D0CCCC;
@@ -6046,8 +6274,8 @@
         position: absolute;
         width: 150px;
         height: 27px;
-        left: 1pc;
-        top: 32.2pc;
+        left: 1.5pc;
+        top: 26pc;
     
         font-family: Roboto, sans-serif;
         font-style: normal;
@@ -6063,8 +6291,8 @@
         position: absolute;
         width: 270px;
         height: 27px;
-        left: 1pc;
-        top: 34.5pc;
+        left: 1.6pc;
+        top: 28.5pc;
     
         font-family: Roboto,sans-serif;
         font-style: normal;
@@ -6079,7 +6307,7 @@
     
     .text-discount-01{
         margin-top: -30pc;
-        margin-left: -3pc;
+        margin-left: 1.6pc;
     }
     .discount .h3{
         width: 200px;
@@ -6153,8 +6381,8 @@
         position: absolute;
         width: 342px;
         height: 2px;
-        left: 1pc;
-        top: 54.8pc;
+        left: 1.6pc;
+        top: 48.8pc;
         border: 1px solid #D0CCCC;
         background-color:#D0CCCC;
     }
@@ -6193,15 +6421,15 @@
     }
     .text-discount-02{
         margin-top: 2pc;
-        margin-left: -3pc;
+        margin-left: 1.6pc;
     }
     
     .information-01{
         position: absolute;
         width: 13.2pc;
         height: 6pc;
-        left: 3pc;
-        top: 66pc;
+        left: 2.5pc;
+        top: 60pc;
         border: 1px dashed #000000;
         padding: 10px 15px;
     }
@@ -6241,8 +6469,8 @@
         position: absolute;
         width: 13.2pc;
         height: 50px;
-        left: 3pc;
-        top: 72.5pc;
+        left: 2.5pc;
+        top: 66.5pc;
     
         border: 1px solid #000000;
         box-sizing: border-box;
@@ -6276,8 +6504,8 @@
         position: absolute;
         width: 65px;
         height: 40px;
-        left: 1pc;
-        top: 78pc;
+        left: 2.5pc;
+        top: 73pc;
     
         background: #FFFFFF;
         border: 1px solid #D0D0D0;
@@ -6286,8 +6514,8 @@
     
         font-style: normal;
         font-weight: bold;
-        font-size: 22px;
-        padding-left: 33px;
+        font-size: 18px;
+        padding-left: 25px;
     
         display: flex;
         align-items: center;
@@ -6298,8 +6526,8 @@
         position: absolute;
         width: 150px;
         height: 40px;
-        left: 5pc;
-        top: 78pc;
+        left: 6.5pc;
+        top: 73pc;
     
         background: #FF0000;
         border: 1px solid #900000;
@@ -6320,14 +6548,14 @@
         width: 21.5pc;
         height: 2px;
         left: 1pc;
-        top: 84pc;
+        top: 78pc;
         border: 1px solid #D0CCCC;
         background-color:#D0CCCC;
     }
     
     .styled-table-01 {
         position: absolute;
-        top: 84.7pc;
+        top: 78.7pc;
         left: 1pc;
         color: black;
         border-collapse: collapse;
@@ -6357,7 +6585,7 @@
         width: 250px;
         height: 40px;
         left: 1pc;
-        top: 30pc;
+        top: 30.2pc;
     
         font-family: Roboto, sans-serif;
         font-style: normal;
@@ -6636,7 +6864,7 @@
     /* ===============code=============== */
     .code-laptop p{
         position: relative;
-        top: -30.5pc;
+        top: -31pc;
         left: 1pc;
         width:270px ;
         font-family: Roboto, sans-serif;
@@ -6647,7 +6875,7 @@
         width: 17.2pc;
         height: 2px;
         left: 1pc;
-        top: 305pc;
+        top: 298.2pc;
         border: 1px solid #D0CCCC;
     }
     .image-code-laptop img{
@@ -6710,10 +6938,10 @@
     }
     .hr-05{
         position: relative;
-        width: 20.5pc;
+        width: 21pc;
         height: 2px;
         left: 1.5pc;
-        top: -35pc;
+        top: -33pc;
         border: 1px solid #D0CCCC;
     }
     /* ===========================comparison========================== */
@@ -6722,7 +6950,7 @@
         width: 330px;
         height: 50px;
         left: 1.6pc;
-        top: -35pc;
+        top: -32pc;
     
         font-family: Roboto, sans-serif;
         font-style: normal;
@@ -6736,7 +6964,7 @@
     }
     .comparison .layout-comparison{
         position: relative;
-        top:-35pc;
+        top:-30pc;
         left: 2pc;
         display: grid;
         width:50px ;

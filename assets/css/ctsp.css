@@ -17,28 +17,68 @@ main{
     height: 360pc;
     background: white;
 }
-.gt{
-    margin: 0px 8pc; 
+.gt-img img{
+    vertical-align: middle;
 }
-.gt .image-01{
+.gt-img{
+    margin:0px 0px 0px 30px;
+    padding-top: 40px;
+}
+.container {
     position: relative;
-    width: 85%;
-    height: 370px;
-    top:2.5pc;
-    right: 17.5pc;
 }
-.gt .image-02{
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 100px;
+    color: white;
+}
+.row{
+    margin-left: 40px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  display: inline-flex;
+  padding: 12px 2px;
+  width: auto;
+  height: 65px;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.mySlides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+/* ============================= */
+.gt-content{
     position: relative;
-    top: 3pc;
-    right:20pc;
-    width: 100%;
-    height: 65px;
+    margin: -1.7pc 12pc;
 }
-.gt .gt-content{
-    position: relative;
-    margin: 0pc 4pc;
-}
-.gt .gt-content h2{
+.gt-content h2{
     position: relative;
     width: 520px;
     height: 54px;
@@ -212,7 +252,7 @@ main{
 
 .text-discount-01{
     margin-top: -5.8pc;
-    margin-left: 22.8pc;
+    margin-left: 29.8pc;
 }
 .discount .h3{
     width: 200px;
@@ -331,7 +371,7 @@ main{
 }
 .text-discount-02{
     margin-top: 2pc;
-    margin-left: 23pc;
+    margin-left: 29.8pc;
 }
 
 .information-01{
